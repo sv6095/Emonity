@@ -129,8 +129,10 @@ torch.save(model_1d_cnn.state_dict(), 'enhanced_1d_cnn_model.pth')
 ```
 
 ### Evaluation
+<img width="1990" height="1190" alt="download (7)" src="https://github.com/user-attachments/assets/24f5b6a7-a9c0-49f1-aea9-36b07df64b12" />
 
-- The notebook evaluates each model and the ensemble on the test set, reporting accuracy, precision, recall, F1-score, and confusion matrices.
+- <img width="742" height="590" alt="download (8)" src="https://github.com/user-attachments/assets/6f7e22b8-abbd-4ce2-8aa9-893d620b31e5" />
+The notebook evaluates each model and the ensemble on the test set, reporting accuracy, precision, recall, F1-score, and confusion matrices.
 - **Best results:**
   - **1D CNN:** Accuracy: 0.705, Precision: 0.712, Recall: 0.705, F1: 0.698
   - **2D CNN:** Accuracy: 0.901, Precision: 0.903, Recall: 0.901, F1: 0.901
